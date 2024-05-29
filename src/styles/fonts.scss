@@ -1,0 +1,40 @@
+@import './theme.scss';
+
+
+$light-font: "Roboto", sans-serif;
+$bold-font: "Roboto", sans-serif;
+$extra-bold-font: "Roboto", sans-serif;
+$bold-font-size: 30px;
+$heading-font-size: 24px;
+$sub-heading-font-size: 18px;
+$body-font-size: 14px;
+
+.bold-text {
+  font-family: $extra-bold-font;
+  font-size: $bold-font-size;
+  color: $navy-blue-color;
+}
+
+.heading {
+  font-family: $extra-bold-font;
+  font-size: $heading-font-size;
+  color: $navy-blue-color;
+}
+
+.sub-heading {
+  font-family: $bold-font;
+  font-size: $sub-heading-font-size;
+  color: $navy-blue-color;
+}
+
+.body-text-bold {
+  font-family: $bold-font;
+  font-size: $body-font-size;
+  color: $navy-blue-color;
+}
+
+.body-text-regular {
+  font-family: $light-font;
+  font-size: $body-font-size;
+  color: $dark-grey-color2;
+}
